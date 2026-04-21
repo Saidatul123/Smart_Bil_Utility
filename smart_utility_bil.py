@@ -77,7 +77,7 @@ def show_visuals(seq_duration, th_duration, par_duration, urban_count, rural_cou
     plt.show()
 
 def run_billing_system():
-    # Recommended: Use 10,000 households or more to clearly see the Parallel speedup
+   
     total_houses = get_valid_input("\nEnter number of households to process (Recommended: 10000): ", is_int=True)
     
     cores = cpu_count()

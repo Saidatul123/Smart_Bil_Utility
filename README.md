@@ -34,7 +34,7 @@ To run this application smoothly, ensure your system meets the following:
 
 ### 1. Clone the Repository:
 ```bash
-git clone [https://github.com/YourUsername/Smart-Billing-System.git](https://github.com/YourUsername/Smart_Bil-Utility.git)
+git clone [https://github.com/YourUsername/Smart_Bil_Utility.git](https://github.com/YourUsername/Smart_Bil_Utility.git)
 cd Smart_Bil_Utility
 ```
 
