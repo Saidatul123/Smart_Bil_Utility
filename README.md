@@ -34,17 +34,20 @@ To run this application smoothly, ensure your system meets the following:
 
 ### 1. Clone the Repository:
 ```bash
-git clone [https://github.com/YourUsername/Smart-Billing-System.git](https://github.com/YourUsername/Smart-Billing-System.git)
-cd Smart-Billing-System
+git clone [https://github.com/YourUsername/Smart-Billing-System.git](https://github.com/YourUsername/Smart_Bil-Utility.git)
+cd Smart_Bil_Utility
+```
 
 ### 2. Install Dependencies:
 The project uses `matplotlib` for generating performance charts. Install it via the terminal:
 ```bash
 pip install matplotlib
+```
 
 ### 3. Run the Application: 
 ```bash
-python billing_system.py
+python smart_utility_bil.py
+```
 
 ---
 
@@ -55,7 +58,7 @@ Follow these steps to interact with the billing simulation:
 1.  **Launch the Script:**
     Open your terminal in VS Code and run:
     ```bash
-    python billing_system.py
+    python smart_utility_bil.py
     ```
 
 2.  **Enter Input Volume:**
