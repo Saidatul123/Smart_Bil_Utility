@@ -128,9 +128,5 @@ Below are the execution results for the three test categories, showing the signi
 The core of this system is the **Multiprocessing Pool**, which utilizes the full power of your CPU cores.
 
 ```python
-# --- Multiprocessing (Parallel) Implementation ---
-# This section bypasses the GIL to run calculations in true parallel
-start_par = time.time()
-with Pool() as pool:
-    final_results = pool.map(process_household, households)
-par_duration = time.time() - start_par
+* [smart_utility_bil.py](smart_utility_bil.py)
+```
