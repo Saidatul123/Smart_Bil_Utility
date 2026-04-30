@@ -63,9 +63,9 @@ Follow these steps to interact with the billing simulation:
 
 2.  **Enter Input Volume:**
     When prompted, enter the number of households. To see the best performance from Parallel processing, try:
-    * `10000` (Small test)
-    * `30000` (Medium load)
-    * `60000` (Stress test)
+    * `100000` (Small test)
+    * `500000` (Medium load)
+    * `1000000` (Stress test)
 
 3.  **Configure Distribution:**
     Select how the data is generated:
@@ -78,8 +78,7 @@ Follow these steps to interact with the billing simulation:
 
 5.  **Navigate the Interactive Menu:**
     * Enter `1`: Opens a window displaying the **Execution Time Comparison** (Bar Chart) and **Household Distribution** (Pie Chart).
-    * Enter `2`: Restarts the process for a new calculation.
-    * Enter `3`: Safely exits the system.
+    * Enter `2`: Safely exits the system.
 
 ---
 
@@ -89,9 +88,9 @@ The data below represents actual test runs. Note the significant reduction in ti
 
 | Households | Sequential Time | Threading Time | Parallel Time | Speedup (%) |
 | :--- | :---: | :---: | :---: | :---: |
-| **10,000** | 16.9188s | 7.7383s | 6.1366s | **63.73%** |
-| **30,000** | 45.5355s | 21.4935s | 14.5803s | **67.98%** |
-| **60,000** | 104.0295s | 61.2687s | 40.9535s | **60.63%** |
+| **100,000** | 2.18s | 1.55s | 0.96s | **56%** |
+| **500,000** | 10.96s | 8.01s | 4.88s | **55%** |
+| **1,000,000** | 22.30s | 16.51s | 9.94s | **55%** |
 
 ---
 
@@ -99,27 +98,27 @@ The data below represents actual test runs. Note the significant reduction in ti
 
 Below are the execution results for the three test categories, showing the significant performance boost as the data volume increases.
 
-### 🔹 Category 1: 10,000 Households
-**Processing Summary:** Optimized speedup of ~63%.
+### 🔹 Category 1: 100,000 Households
+**Processing Summary:** Optimized speedup of ~56%.
 | Console Output | Visual Analytics |
 | :--- | :--- |
-| ![10k Output](output_10K.png) | ![10k Graph](graph_10K.png) |
+| ![OUTPUT 100K](OUTPUT_100K.jpeg) | ![GRAPH 100K](GRAPH_100K.jpeg) |
 
 ---
 
-### 🔹 Category 2: 30,000 Households
-**Processing Summary:** Efficiency remains high at ~67% speedup.
+### 🔹 Category 2: 500,000 Households
+**Processing Summary:** Efficiency remains high at ~55% speedup.
 | Console Output | Visual Analytics |
 | :--- | :--- |
-| ![30k Output](output_30K.png) | ![30k Graph](graph_30K.png) |
+| ![OUTPUT 500K](OUTPUT_500K.jpeg) | ![GRAPH 500K](GRAPH_500K.jpeg) |
 
 ---
 
-### 🔹 Category 3: 60,000 Households
-**Processing Summary:** Handling massive data with ~60% optimization.
+### 🔹 Category 3: 1,000,000 Households
+**Processing Summary:** Handling massive data with ~55% optimization.
 | Console Output | Visual Analytics |
 | :--- | :--- |
-| ![60k Output](output_60K.png) | ![60k Graph](graph_60K.png) |
+| ![OUTPUT 1J](OUTPUT_1J.jpeg) | ![GRAPH 1J](GRAPH_1J.jpeg) |
 
 ---
 
