@@ -205,6 +205,10 @@ def run_billing_system():
         else:
             break
 
+def run_billing_system():
+    with Pool(processes=cpu_count()) as pool:
+        final_results = pool.map(process_household, households, chunksize=5000)
+
 if __name__ == "__main__":
     # Important for multiprocessing on Windows
     multiprocessing.freeze_support()
