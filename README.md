@@ -12,7 +12,7 @@
 
 **👥 GROUP : M3CS2554C**
 
-**YOUTUBE LINK : [youtube](https://youtu.be/ibz1cFCJ8Lo)**
+**YOUTUBE LINK : [ITT440 - INDIVIDUAL ASSIGNMENT](https://youtu.be/ibz1cFCJ8Lo)**
 
 ---
 
@@ -129,8 +129,4 @@ Below are the execution results for the three test categories, showing the signi
 The core of this system is the **Multiprocessing Pool**, which utilizes the full power of your CPU cores.
 
 
-<<<<<<< HEAD
 * [**smart_utility_bil.py**](smart_utility_bil.py)
-=======
-* [**smart_utility_bil.py**](smart_utility_bil.py)
->>>>>>> b0615af6be52cb24536fe10feadeb06cd90f3bce
