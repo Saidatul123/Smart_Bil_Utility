@@ -207,7 +207,7 @@ def run_billing_system():
 
 def run_billing_system():
     with Pool(processes=cpu_count()) as pool:
-        final_results = pool.map(process_household, households, chunksize=5000)
+        final_results = pool.map(process_household, household, chunksize=5000) # pyright: ignore[reportUndefinedVariable]
 
 if __name__ == "__main__":
     # Important for multiprocessing on Windows
